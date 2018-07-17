@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Alice Rose | Web Developer</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="True" name="HandheldFriendly">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <style>
+      /*!
+       * Web Fonts from Fontspring.com
+       *
+       * All OpenType features and all extended glyphs have been removed.
+       * Fully installable fonts can be purchased at http://www.fontspring.com
+       *
+       * The fonts included in this stylesheet are subject to the End User License you purchased
+       * from Fontspring. The fonts are protected under domestic and international trademark and
+       * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+       * distributing this font software.
+       *
+       * (c) 2010-2018 Fontspring
+       *
+       *
+       *
+       *
+       * The fonts included are copyrighted by the vendor listed below.
+       *
+       * Vendor:      exljbris Font Foundry
+       * License URL: https://www.fontspring.com/licenses/exljbris/webfont
+       *
+       *
+       */
+      @font-face {
+        font-family: 'MuseoSans500';
+        src: url('./fonts/MuseoSans500.woff2') format('woff2'),
+        url('./fonts/MuseoSans500.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+      body, h1, p, ul {
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        color: inherit;
+      }
+      body {
+        background-color: #FFDFDF;
+        font-family: 'MuseoSans500', Helvetica, Arial, Verdana, sans-serif;
+        font-size: 100%;
+
+        color: #00449E;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrapper {
+        width: 80%;
+        max-width: 41rem;
+        min-height: 100vh;
+
+        margin: 0 auto;
+        padding: 2rem 0;
+      }
+
+      header {
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 2rem;
+        font-weight: normal;
+        font-size: 5rem;
+        color: rgba(0, 0, 0, 0);
+        text-transform: uppercase;
+        font-feature-settings: "kern" 1;
+        -webkit-text-stroke-color: #00449E;
+        -webkit-text-stroke-width: 3px;
+      }
+      h1 > .subtitle {
+        display: block;
+        font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+        font-size: 1.25rem; /* 20/16 */
+
+        color: #00449E;
+        text-transform: none;
+        font-feature-settings: initial;
+        -webkit-text-stroke-color: initial;
+        -webkit-text-stroke-width: initial;
+      }
+
+
+      p {
+        font-size: 1.25rem; /* 20/16 */
+        line-height: 1.5;
+      }
+      p + p {
+        margin-top: .8em;
+      }
+
+
+      small,
+      footer {
+        font-size: 0.875rem; /* 14/16 */
+      }
+      footer {
+        margin-top: 3em;
+      }
+      footer ul {
+        margin-bottom: 2em;
+        list-style: none;
+      }
+      footer li + li {
+        margin-top: 1em;
+      }
+      footer a {
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      @media screen and (min-width: 31.25em) { /* 500/16 */
+        h1 {
+          margin-bottom: 4rem;
+          font-size: 7rem; /* 112/16 */
+          -webkit-text-stroke-width: 5px;
+        }
+        h1 > .subtitle {
+          font-size: 1.5rem; /* 24/16 */
+        }
+        p {
+          line-height: 1.4
+        }
+      }
+      @media screen and (min-width: 35.938em) {  /* 575/16 */
+        footer,
+        footer ul {
+          display: flex;
+        }
+        footer {
+          flex-direction: row;
+          justify-content: flex-start;
+        }
+        footer ul {
+          order: 1;
+          flex-direction: row;
+        }
+        footer li + li {
+          margin-top: 0;
+        }
+        footer li::before {
+          content: '•';
+          margin: 0 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>
+          Alice Rose <span class="subtitle">Web Developer</span>
+        </h1>
+      </header>
+      <main>
+        <p>
+          Based in Berlin, Germany, I have been building beautiful, performant digital products at <a href="https://www.acolorbright.com/" rel="noopener noreferrer" target="_blank">A Color Bright</a> since 2015.
+        </p>
+        <p>
+          Prior to that, I spent about 8 years working as a professional software developer on a range of products in New Zealand, Australia and Germany.
+        </p>
+        <p>
+          I particularly enjoy the problem-solving aspects of web development. Designing app architecture, building required functionality, improving performance, ensuring accessibility, and providing an excellent user experience are all extremely satisfying and rewarding. I do my best work as part of a strong team.
+        </p>
+        <p>
+          I also enjoy teaching and coach regularly at <a href="https://djangogirls.org/" rel="noopener noreferrer" target="_blank">Django Girls</a> events in Germany, in both English and German.
+        </p>
+        <p>
+          I speak German fluently and have a strong interest in linguistics and language-learning. I can usually be found dabbling in one language or another.
+        </p>
+      </main>
+      <footer>
+        <ul>
+          <li><a href="https://github.com/heldinz" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/heldinz" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+          <li><a href="https://twitter.com/heldinz" rel="noopener noreferrer" target="_blank">Twitter</a></li>
+          <li><a href="mailto:hello@alicero.se">Email</a></li>
+        </ul>
+        <small>© 2018 Alice Rose</small>
+      </footer>
+    </div>
+    <script>
+      var favicon = document.createElement('link');
+      var canvas = document.createElement('canvas');
+      var ctx  = canvas.getContext("2d");
+      favicon.type = "image/png";
+      favicon.rel = "icon";
+      canvas.width = 32;
+      canvas.height = 32;
+      ctx.font = '32px sans-serif';
+      ctx.fillText('🤘', 0, 28);
+      favicon.href = canvas.toDataURL();
+      document.head.appendChild(favicon);
+    </script>
+  </body>
+</html>

@@ -157,6 +157,13 @@
         }
       }
     </style>
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00449e">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <div class="wrapper">
@@ -192,18 +199,5 @@
         <small>© 2018 Alice Rose</small>
       </footer>
     </div>
-    <script>
-      var favicon = document.createElement('link');
-      var canvas = document.createElement('canvas');
-      var ctx  = canvas.getContext("2d");
-      favicon.type = "image/png";
-      favicon.rel = "icon";
-      canvas.width = 32;
-      canvas.height = 32;
-      ctx.font = '32px sans-serif';
-      ctx.fillText('🤘', 0, 28);
-      favicon.href = canvas.toDataURL();
-      document.head.appendChild(favicon);
-    </script>
   </body>
 </html>
